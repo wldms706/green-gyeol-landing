@@ -91,11 +91,6 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
-    image-rendering: -webkit-optimize-contrast;
-    -webkit-backface-visibility: hidden;
-    -ms-transform: translateZ(0);
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
 }
 
 a {
@@ -838,14 +833,6 @@ h1, h2, h3, h4, h5, h6 {
     aspect-ratio: 1;
     object-fit: cover;
     object-position: center;
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: crisp-edges;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transform: translateZ(0) scale(1.0001);
-    transform: translateZ(0) scale(1.0001);
-    -webkit-font-smoothing: subpixel-antialiased;
-    will-change: transform;
 }
 
 .comparison-label {
