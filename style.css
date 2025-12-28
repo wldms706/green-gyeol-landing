@@ -837,16 +837,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .comparison-label {
     position: absolute;
-    bottom: var(--space-3);
-    left: var(--space-3);
-    padding: var(--space-1) var(--space-3);
-    background: rgba(255, 255, 255, 0.9);
-    font-size: 0.55rem;
+    bottom: var(--space-2);
+    left: var(--space-2);
+    padding: 2px 8px;
+    background: rgba(255, 255, 255, 0.85);
+    font-size: 0.5rem;
     font-weight: 500;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     text-transform: uppercase;
     backdrop-filter: blur(4px);
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
 .comparison-side.before .comparison-label {
