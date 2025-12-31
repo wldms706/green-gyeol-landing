@@ -149,6 +149,12 @@ const translations = {
         'faq5-q': 'Can I resume daily activities after the procedure?',
         'faq5-a': 'Yes, you can resume daily activities immediately. However, for 1 week after the procedure, avoid water, sweat, and sauna, and carefully follow the aftercare instructions.',
 
+        // Instagram Section
+        'instagram-label': 'Follow Us',
+        'instagram-title': 'More Beautiful Works',
+        'instagram-desc': 'See more transformations on Instagram',
+        'instagram-cta-btn': 'See More on Instagram',
+
         // Booking Section
         'booking-label': 'Ready to Begin?',
         'booking-title': 'Book Your Consultation',
@@ -305,6 +311,12 @@ const translations = {
         'pricing-deposit-text': '確保您的預約',
         'pricing-standards': '標準：',
         'pricing-standards-text': '與韓國旗艦店相同',
+
+        // Instagram Section
+        'instagram-label': '關注我們',
+        'instagram-title': '更多美麗作品',
+        'instagram-desc': '在 Instagram 上查看更多轉變',
+        'instagram-cta-btn': '在 Instagram 上查看更多',
 
         // FAQ Section
         'faq-label': '常見問題',
