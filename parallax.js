@@ -149,7 +149,7 @@
 
     // === IMAGE REVEAL ON SCROLL === //
     function initImageReveal() {
-        const images = document.querySelectorAll('.portfolio-comparison img, .technique-image-wrapper img');
+        const images = document.querySelectorAll('.technique-image-wrapper img');
 
         images.forEach(img => {
             img.style.opacity = '0';

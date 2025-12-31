@@ -210,9 +210,7 @@
     position: relative;
 }
 
-.about-images,
-.portfolio-item,
-.process-step,
+/* Remove glass effect from portfolio items and process steps to show images */
 .pricing-card,
 .faq-item,
 .booking-card {
@@ -225,15 +223,22 @@
     transition: all 0.3s ease;
 }
 
-.about-images:hover,
-.portfolio-item:hover,
-.process-step:hover,
 .pricing-card:hover,
 .faq-item:hover,
 .booking-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 15px 50px 0 rgba(31, 38, 135, 0.25);
     border-color: rgba(127, 255, 127, 0.3);
+}
+
+/* Ensure images are visible */
+.portfolio-item img,
+.process-step img,
+.about-images img,
+.trip-video,
+.hero-bg-image {
+    opacity: 1 !important;
+    visibility: visible !important;
 }
 
 /* === FLOATING BADGE === */
