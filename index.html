@@ -28,6 +28,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css?v=3">
+    <link rel="stylesheet" href="glassmorphism.css?v=1">
 </head>
 <body>
 
@@ -50,7 +51,7 @@
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-background">
+        <div class="hero-background" data-parallax="0.5">
             <div class="hero-image-wrapper">
                 <img src="images/hero-image.jpg" alt="Green Gyeol Brow" class="hero-bg-image">
             </div>
@@ -59,26 +60,26 @@
         </div>
 
         <div class="hero-content">
-            <div class="hero-label">
+            <div class="hero-label" data-float="true">
                 <span class="label-line"></span>
                 <span class="label-text" data-translate="hero-label">HONG KONG EXCLUSIVE · FEBRUARY 2025</span>
                 <span class="label-line"></span>
             </div>
 
-            <h1 class="hero-title">
+            <h1 class="hero-title" data-mouse-parallax="15">
                 <span class="title-line" data-translate="hero-title-line1">Korean Hair</span>
                 <span class="title-line" data-translate="hero-title-line2">Stroke Brow</span>
             </h1>
 
             <p class="hero-tagline" data-translate="hero-tagline">Natural · Safe · Precise</p>
 
-            <div class="hero-description">
+            <div class="hero-description" data-mouse-parallax="10">
                 <p data-translate="hero-desc1">Experience the artistry of Korean brow technique</p>
                 <p data-translate="hero-desc2">by master artist <strong>Hani</strong></p>
             </div>
 
             <div class="hero-actions">
-                <a href="#booking" class="btn btn-primary">
+                <a href="#booking" class="btn btn-primary neon-accent">
                     <span data-translate="hero-btn-primary">Book Consultation</span>
                     <span class="btn-arrow">→</span>
                 </a>
@@ -126,16 +127,16 @@
     </section>
 
     <!-- About Section -->
-    <section class="about-section" id="about">
+    <section class="about-section section-bg-gradient" id="about">
         <div class="container-wide">
             <div class="about-grid">
-                <div class="about-images">
+                <div class="about-images slide-in-left">
                     <div class="image-main">
                         <img src="profile/KakaoTalk_Photo_2025-12-24-17-26-41.jpeg" alt="Hani - Green Gyeol">
                         <div class="image-frame"></div>
                     </div>
-                    <div class="image-accent"></div>
-                    <div class="floating-badge">
+                    <div class="image-accent" data-parallax="0.2"></div>
+                    <div class="floating-badge" data-float="true">
                         <div class="badge-content">
                             <span class="badge-number">5+</span>
                             <span class="badge-text" data-translate="about-badge">Years of<br>Excellence</span>
@@ -143,7 +144,7 @@
                     </div>
                 </div>
 
-                <div class="about-content">
+                <div class="about-content fade-in">
                     <div class="section-header">
                         <span class="section-label" data-translate="about-label">About the Artist</span>
                         <h2 class="section-title" data-translate="about-title">Hani</h2>
@@ -777,5 +778,6 @@
     </footer>
 
     <script src="language.js"></script>
+    <script src="parallax.js"></script>
 </body>
 </html>
