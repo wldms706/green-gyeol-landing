@@ -1833,6 +1833,23 @@ h3 {
         display: none;
     }
 
+    /* Show language switcher on mobile */
+    .language-switcher {
+        display: flex;
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        z-index: 1001;
+        margin: 0;
+        padding: 0;
+        border: none;
+        background: rgba(253, 252, 251, 0.95);
+        backdrop-filter: blur(10px);
+        padding: var(--space-2);
+        border-radius: 20px;
+        box-shadow: var(--shadow-md);
+    }
+
     .hero {
         min-height: 100svh;
     }
