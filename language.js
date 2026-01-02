@@ -174,7 +174,7 @@ const translations = {
         'footer-tagline': 'Natural · Safe · Precise',
         'footer-quick-links': 'Quick Links',
         'footer-connect': 'Connect',
-        'footer-copyright': '© 2025 Green Gyeol. All rights reserved.',
+        'footer-copyright': '© 2025 greenit. All rights reserved.',
         'footer-location': 'Hong Kong Exclusive Pop-Up · February 2025'
     },
     zh: {
@@ -351,7 +351,7 @@ const translations = {
         'footer-tagline': '自然 · 安全 · 精準',
         'footer-quick-links': '快速連結',
         'footer-connect': '聯繫',
-        'footer-copyright': '© 2025 Green Gyeol. 版權所有。',
+        'footer-copyright': '© 2025 greenit. 版權所有。',
         'footer-location': '香港獨家快閃 · 2025年2月'
     }
 };
