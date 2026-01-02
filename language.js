@@ -139,9 +139,9 @@ const translations = {
         'faq-label': 'FAQ',
         'faq-title': 'Common Questions',
         'faq1-q': 'How does retouch work?',
-        'faq1-a': 'Retouch availability during the Hong Kong schedule will be provided during consultation. Retouch is also possible when visiting Korea. Generally, a retouch is recommended 6-8 weeks after the first procedure to achieve optimal results.',
+        'faq1-a': 'Retouch availability during the Hong Kong schedule will be discussed during consultation. Retouch is also possible when visiting Korea. While it may vary depending on individual skin type and lifestyle, Hair Stroke brows typically heal very well without the need for a retouch, as the technique is designed to minimize skin trauma and promote natural retention.',
         'faq2-q': 'How long does it last?',
-        'faq2-a': 'It varies depending on skin type and lifestyle, but on average 1-2 years. Oily skin may fade faster, and frequent sun exposure can also shorten the duration.',
+        'faq2-a': 'It varies depending on skin type and lifestyle, but on average 2-3 years. Oily skin may fade faster, and frequent sun exposure can also shorten the duration.',
         'faq3-q': 'Can it be done over existing brow tattoos?',
         'faq3-a': 'We will advise after checking the condition. Photo consultation is required, and removal or correction work may precede depending on the color, depth, and condition of the existing tattoo.',
         'faq4-q': 'How long does the procedure take?',
@@ -174,7 +174,7 @@ const translations = {
         'footer-tagline': 'Natural · Safe · Precise',
         'footer-quick-links': 'Quick Links',
         'footer-connect': 'Connect',
-        'footer-copyright': '© 2025 greenit. All rights reserved.',
+        'footer-copyright': '© 2025 Greengyeol. All rights reserved.',
         'footer-location': 'Hong Kong Exclusive Pop-Up · February 2025'
     },
     zh: {
@@ -322,9 +322,9 @@ const translations = {
         'faq-label': '常見問題',
         'faq-title': '常見問題',
         'faq1-q': '補色如何進行？',
-        'faq1-a': '香港期間是否可以補色將在諮詢時告知。訪問韓國時也可以補色。通常建議在首次施作後6-8週進行補色，以獲得最佳效果。',
+        'faq1-a': '香港期間是否可以補色將在諮詢時討論。訪問韓國時也可以補色。雖然會因個人皮膚類型和生活方式而異，但 Hair Stroke 眉毛通常能很好地癒合，無需補色，因為這項技術旨在將皮膚創傷降至最低並促進自然保持。',
         'faq2-q': '維持期有多長？',
-        'faq2-a': '因皮膚類型和生活習慣而異，但平均為1-2年。油性皮膚可能會更快變淡，經常曝曬於陽光下也會縮短持續時間。',
+        'faq2-a': '因皮膚類型和生活習慣而異，但平均為2-3年。油性皮膚可能會更快變淡，經常曝曬於陽光下也會縮短持續時間。',
         'faq3-q': '可以在既有眉毛紋身上施作嗎？',
         'faq3-a': '確認狀況後將告知是否可行。需要提供照片諮詢，根據既有紋身的顏色、深度和狀況，可能需要先進行移除或修正作業。',
         'faq4-q': '施作時間需要多久？',
@@ -351,7 +351,7 @@ const translations = {
         'footer-tagline': '自然 · 安全 · 精準',
         'footer-quick-links': '快速連結',
         'footer-connect': '聯繫',
-        'footer-copyright': '© 2025 greenit. 版權所有。',
+        'footer-copyright': '© 2025 Greengyeol. 版權所有。',
         'footer-location': '香港獨家快閃 · 2025年2月'
     }
 };
