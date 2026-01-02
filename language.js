@@ -43,8 +43,8 @@ const translations = {
         'about-badge': 'Years of<br>Excellence',
 
         // HK Trip Section
-        'trip-badge': 'Previous Visit',
-        'trip-title': '2024.11 HK Business Trip',
+        'trip-badge': 'Last November',
+        'trip-title': 'Hong Kong',
         'trip-desc': 'Our first Hong Kong pop-up was a tremendous success.<br>Experience the same Korean standard this February.',
 
         // Portfolio Section
@@ -220,8 +220,8 @@ const translations = {
         'about-badge': '專業<br>年資',
 
         // HK Trip Section
-        'trip-badge': '上次訪問',
-        'trip-title': '2024.11 香港出差',
+        'trip-badge': '去年十一月',
+        'trip-title': '香港',
         'trip-desc': '我們的首次香港快閃活動獲得了巨大成功。<br>今年2月也能體驗相同的韓國標準。',
 
         // Portfolio Section
