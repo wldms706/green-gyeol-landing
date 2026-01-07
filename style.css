@@ -835,8 +835,8 @@ h3 {
 
 .floating-badge {
     position: absolute;
-    bottom: 40px;
-    right: -40px;
+    bottom: -80px;
+    right: 20px;
     z-index: 3;
     background: var(--white);
     padding: var(--space-6);
