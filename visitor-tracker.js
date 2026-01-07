@@ -3,7 +3,7 @@
   'use strict';
 
   // Configuration
-  const API_ENDPOINT = 'https://script.google.com/macros/s/AKfycbyAZ5MZBSITIyO7JmnrRJUJKZroowtWVd8lkjfa3lXo4NgyTo4KHig4YUgSijiQDmrr/exec';
+  const API_ENDPOINT = 'https://script.google.com/macros/s/AKfycbwCXl2i6XM0cOM5lPFaOsyxa0NUvXTV2xpUH5OUT-3JDhh_7p_7BG1dVm03PmpI2ZNQ/exec';
 
   let sessionStartTime = Date.now();
   let isTracked = false;
