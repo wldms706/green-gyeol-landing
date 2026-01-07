@@ -32,6 +32,7 @@ const translations = {
         // About Section
         'about-label': 'About the Artist',
         'about-title': 'Hani',
+        'artist-experience': '8+ Years of Excellence',
         'about-lead': 'A brow artist based in Korea, I have developed and refined a Hair Stroke technique that minimizes skin damage.',
         'about-text': 'I precisely calculate the depth and direction of each stroke to design natural, long-lasting brows. Rather than following trends, I provide customized designs optimized for each individual\'s face shape and skin condition.',
         'expertise1-title': 'Skin-Friendly Technique',
@@ -209,6 +210,7 @@ const translations = {
         // About Section
         'about-label': '關於藝術家',
         'about-title': 'Hani',
+        'artist-experience': '8年以上專業經驗',
         'about-lead': '我係喺韓國活躍嘅眉毛藝術家，開發咗將皮膚損傷減到最低嘅專業 Hair Stroke 技術。',
         'about-text': '精確計算每一條線條嘅深度同方向，設計自然持久嘅眉毛。我唔會追隨潮流，而係提供度身訂造、針對每個人臉型同皮膚狀況嘅設計。',
         'expertise1-title': 'Skin-Friendly Technique',

@@ -343,8 +343,16 @@ h3 {
     font-size: clamp(2rem, 4vw, 3.5rem);
     font-weight: 300;
     letter-spacing: -0.03em;
-    margin-bottom: var(--space-5);
+    margin-bottom: var(--space-3);
     line-height: 1.2;
+}
+
+.artist-experience {
+    font-size: 1.125rem;
+    color: var(--green-primary);
+    font-weight: 500;
+    margin-bottom: var(--space-5);
+    letter-spacing: 0.05em;
 }
 
 .title-underline {
