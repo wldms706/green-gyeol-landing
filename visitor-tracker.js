@@ -3,7 +3,7 @@
   'use strict';
 
   // Configuration
-  const API_ENDPOINT = '/api/track-visitor'; // Will be replaced with your Vercel deployment URL
+  const API_ENDPOINT = 'https://script.google.com/macros/s/AKfycbz201sCMb60Innv-NR04zcHOLMaHyZVXtk4cE7wwGwm-xlklWhWGh7c0-5cWJyjeH8/exec';
 
   let sessionStartTime = Date.now();
   let isTracked = false;
