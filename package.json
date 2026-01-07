@@ -1,0 +1,21 @@
+{
+  "name": "greengyeol-landing",
+  "version": "1.0.0",
+  "description": "Greengyeol - Korean Hair Stroke Brow Landing Page",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.15",
+    "dotenv": "^17.2.3"
+  },
+  "keywords": [
+    "landing-page",
+    "greengyeol",
+    "notion"
+  ],
+  "author": "",
+  "license": "ISC"
+}
