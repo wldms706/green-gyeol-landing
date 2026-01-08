@@ -986,6 +986,82 @@ h3 {
     line-height: 1.6;
 }
 
+/* === HK NOVEMBER PORTFOLIO SECTION === */
+.hk-portfolio-section {
+    padding: var(--space-16) 0;
+    background: var(--ivory);
+}
+
+.hk-portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--space-6);
+    margin-top: var(--space-10);
+}
+
+.hk-portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    background: var(--white);
+    aspect-ratio: 3/4;
+    border: 2px solid var(--cream-dark);
+    transition: var(--transition-elegant);
+}
+
+.hk-portfolio-item:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-xl);
+    border-color: var(--green-lighter);
+}
+
+.hk-portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: var(--transition-smooth);
+}
+
+.hk-portfolio-item:hover img {
+    transform: scale(1.05);
+}
+
+.hk-portfolio-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: var(--space-4);
+    background: linear-gradient(to top, rgba(107, 142, 111, 0.95), transparent);
+    transform: translateY(100%);
+    transition: var(--transition-base);
+}
+
+.hk-portfolio-item:hover .hk-portfolio-overlay {
+    transform: translateY(0);
+}
+
+.hk-portfolio-overlay span {
+    color: var(--white);
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+    .hk-portfolio-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--space-4);
+    }
+}
+
+@media (max-width: 480px) {
+    .hk-portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* === PORTFOLIO SECTION - MINIMALIST LUXURY === */
 .portfolio-section {
     padding: var(--space-20) 0;

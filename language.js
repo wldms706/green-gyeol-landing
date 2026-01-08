@@ -9,8 +9,8 @@ const translations = {
 
         // Hero Section
         'hero-label': 'HONG KONG EXCLUSIVE · FEB 6-8, 2025',
-        'hero-title-line1': 'Korean Hair',
-        'hero-title-line2': 'Stroke Brow',
+        'hero-title-line1': 'Korean',
+        'hero-title-line2': 'PMU Artist',
         'hero-tagline': 'Natural · Safe · Precise',
         'hero-desc1': 'Experience the artistry of Korean brow technique',
         'hero-desc2': 'by master artist <strong>Hani</strong>',
@@ -51,6 +51,12 @@ const translations = {
         'trip-title': 'Hong Kong',
         'trip-desc': 'Our November Hong Kong visit was met with overwhelming response.<br>Due to popular demand, we\'re returning this February.<br>Experience the same Korean standard in Hong Kong.',
         'trip-desc-en': 'Our November Hong Kong visit was met with overwhelming response.<br>Due to popular demand, we\'re returning this February.<br>Experience the same Korean standard in Hong Kong.',
+
+        // HK November Portfolio Section
+        'hk-portfolio-label': 'November 2024 · Hong Kong',
+        'hk-portfolio-title': 'Real Results from HK Pop-Up',
+        'hk-portfolio-desc': 'Actual clients from our November Hong Kong visit',
+        'hk-portfolio-caption': 'Hong Kong Client',
 
         // Portfolio Section
         'portfolio-label': 'Portfolio',
@@ -199,8 +205,8 @@ const translations = {
 
         // Hero Section
         'hero-label': '香港獨家 · 2025年2月6-8日',
-        'hero-title-line1': '韓式',
-        'hero-title-line2': '線條眉',
+        'hero-title-line1': '韓國',
+        'hero-title-line2': 'PMU 藝術家',
         'hero-tagline': '自然 · 安全 · 精準',
         'hero-desc1': '體驗韓國眉毛技術嘅藝術',
         'hero-desc2': '由大師級藝術家 <strong>Hani</strong> 操刀',
@@ -241,6 +247,12 @@ const translations = {
         'trip-title': '香港',
         'trip-desc': '去年11月嘅香港快閃獲得好大迴響，<br>應客人要求，我哋2月會再嚟。<br>喺香港都可以體驗到同樣嘅韓國標準。',
         'trip-desc-en': '去年11月嘅香港快閃獲得好大迴響，<br>應客人要求，我哋2月會再嚟。<br>喺香港都可以體驗到同樣嘅韓國標準。',
+
+        // HK November Portfolio Section
+        'hk-portfolio-label': '2024年11月 · 香港',
+        'hk-portfolio-title': '香港快閃真實效果',
+        'hk-portfolio-desc': '去年11月香港客人嘅真實效果',
+        'hk-portfolio-caption': '香港客人',
 
         // Portfolio Section
         'portfolio-label': '作品集',
