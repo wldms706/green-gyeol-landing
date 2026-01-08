@@ -8,7 +8,7 @@ const translations = {
         'nav-booking': 'Book Now',
 
         // Hero Section
-        'hero-label': 'HONG KONG EXCLUSIVE · FEBRUARY 2025',
+        'hero-label': 'HONG KONG EXCLUSIVE · FEB 6-8, 2025',
         'hero-title-line1': 'Korean Hair',
         'hero-title-line2': 'Stroke Brow',
         'hero-tagline': 'Natural · Safe · Precise',
@@ -111,10 +111,10 @@ const translations = {
         // Schedule Section
         'schedule-label': 'Limited Availability',
         'schedule-title': 'Hong Kong Pop-Up',
-        'schedule-month': 'February',
+        'schedule-month': 'Feb 6-8',
         'schedule-year': '2025',
-        'schedule-detail1-title': 'Early February',
-        'schedule-detail1-desc': 'Exact dates confirmed upon booking',
+        'schedule-detail1-title': 'February 6-8, 2025',
+        'schedule-detail1-desc': '3 days only · Limited slots available',
         'schedule-detail2-title': 'Limited Slots',
         'schedule-detail2-desc': 'Maximum 3-4 clients per day',
         'schedule-detail3-title': 'Private Location',
@@ -176,7 +176,7 @@ const translations = {
         'footer-quick-links': 'Quick Links',
         'footer-connect': 'Connect',
         'footer-copyright': '© 2025 Greengyeol. All rights reserved.',
-        'footer-location': 'Hong Kong Exclusive Pop-Up · February 2025'
+        'footer-location': 'Hong Kong Exclusive Pop-Up · Feb 6-8, 2025'
     },
     zh: {
         // Navigation
@@ -186,7 +186,7 @@ const translations = {
         'nav-booking': '即刻預約',
 
         // Hero Section
-        'hero-label': '香港獨家 · 2025年2月',
+        'hero-label': '香港獨家 · 2025年2月6-8日',
         'hero-title-line1': '韓式',
         'hero-title-line2': '線條眉',
         'hero-tagline': '自然 · 安全 · 精準',
@@ -289,10 +289,10 @@ const translations = {
         // Schedule Section
         'schedule-label': '名額有限',
         'schedule-title': '香港快閃',
-        'schedule-month': '二月',
+        'schedule-month': '2月6-8日',
         'schedule-year': '2025',
-        'schedule-detail1-title': '2月初',
-        'schedule-detail1-desc': '確實日期會喺預約時確認',
+        'schedule-detail1-title': '2025年2月6-8日',
+        'schedule-detail1-desc': '只有3日 · 名額有限',
         'schedule-detail2-title': '名額有限',
         'schedule-detail2-desc': '每日最多3-4位客人',
         'schedule-detail3-title': '私人地點',
@@ -354,7 +354,7 @@ const translations = {
         'footer-quick-links': '快速連結',
         'footer-connect': '聯絡我哋',
         'footer-copyright': '© 2025 Greengyeol. 版權所有。',
-        'footer-location': '香港獨家快閃 · 2025年2月'
+        'footer-location': '香港獨家快閃 · 2025年2月6-8日'
     }
 };
 
