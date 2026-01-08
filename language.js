@@ -133,8 +133,11 @@ const translations = {
 
         // Pricing Section
         'pricing-label': 'Investment',
-        'pricing-title': 'Pricing',
-        'pricing-service-title': 'Korean Hair Stroke Brow',
+        'pricing-title': 'Pricing Inquiry',
+        'pricing-desc': 'For detailed pricing and package information',
+        'pricing-contact-title': 'Contact Us for Pricing',
+        'pricing-contact-desc': 'Please reach out via WhatsApp for personalized pricing based on your specific needs and consultation.',
+        'pricing-contact-btn': 'Inquire via WhatsApp',
         'pricing-includes-title': 'What\'s Included',
         'pricing-include1': 'Comprehensive consultation & custom design',
         'pricing-include2': 'Premium Korean pigments (safe & long-lasting)',
@@ -329,8 +332,11 @@ const translations = {
 
         // Pricing Section
         'pricing-label': '投資',
-        'pricing-title': '價格',
-        'pricing-service-title': '韓式線條眉',
+        'pricing-title': '價格查詢',
+        'pricing-desc': '詳細價格同套餐資訊',
+        'pricing-contact-title': '聯絡我哋查詢價格',
+        'pricing-contact-desc': '請透過 WhatsApp 聯絡我哋，根據你嘅具體需求同諮詢提供個人化報價。',
+        'pricing-contact-btn': '用 WhatsApp 查詢',
         'pricing-includes-title': '包含項目',
         'pricing-include1': '全面諮詢同度身訂造設計',
         'pricing-include2': '頂級韓國色料（安全又持久）',
