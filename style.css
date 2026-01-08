@@ -880,8 +880,10 @@ h3 {
 .image-main img {
     width: 100%;
     aspect-ratio: 3/4;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center;
     box-shadow: var(--shadow-xl);
+    background: var(--white);
 }
 
 .image-frame {
