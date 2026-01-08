@@ -54,6 +54,8 @@
     const visitorInfo = getVisitorInfo();
     visitorInfo.session_duration = getSessionDuration();
 
+    console.log('[Visitor Tracker] Attempting to track visitor...', visitorInfo);
+
     try {
       const response = await fetch(API_ENDPOINT, {
         method: 'POST',
@@ -63,23 +65,33 @@
         body: JSON.stringify(visitorInfo),
       });
 
+      console.log('[Visitor Tracker] Response status:', response.status);
+
       const data = await response.json();
+      console.log('[Visitor Tracker] Response data:', data);
 
       if (data.success) {
-        console.log('Visitor tracked successfully');
+        console.log('[Visitor Tracker] ✅ Visitor tracked successfully');
         isTracked = true;
       } else {
-        console.error('Failed to track visitor:', data.error);
+        console.error('[Visitor Tracker] ❌ Failed to track visitor:', data.error);
       }
     } catch (error) {
-      console.error('Error tracking visitor:', error);
+      console.error('[Visitor Tracker] ❌ Error tracking visitor:', error);
+      console.error('[Visitor Tracker] Error details:', {
+        message: error.message,
+        stack: error.stack
+      });
     }
   }
 
   // Track when user has spent meaningful time on the page (5 seconds)
   function initTracking() {
+    console.log('[Visitor Tracker] Initializing tracking system...');
+
     // Track after 5 seconds of page load
     setTimeout(() => {
+      console.log('[Visitor Tracker] 5 seconds elapsed, starting tracking...');
       addAction('Page Visit');
       trackVisitor();
     }, 5000);
