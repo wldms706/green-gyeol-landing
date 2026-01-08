@@ -1856,6 +1856,11 @@ h3 {
         gap: var(--space-8);
     }
 
+    /* Date Banner - Tablet */
+    .date-banner-dates {
+        font-size: 3rem;
+    }
+
     .floating-badge {
         right: 20px;
     }
@@ -1916,6 +1921,27 @@ h3 {
     /* Language switcher stays visible on mobile */
     .language-switcher {
         display: flex;
+    }
+
+    /* Date Banner - Mobile */
+    .hk-date-banner {
+        padding: var(--space-6) var(--space-4);
+        margin-bottom: var(--space-6);
+    }
+
+    .date-banner-label {
+        font-size: 0.65rem;
+        letter-spacing: 1.5px;
+    }
+
+    .date-banner-dates {
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+        margin-bottom: var(--space-1);
+    }
+
+    .date-banner-location {
+        font-size: 0.8rem;
     }
 
     .hero {
@@ -1981,6 +2007,24 @@ h3 {
 
     .section-title {
         font-size: clamp(2rem, 8vw, 3rem);
+    }
+
+    /* Date Banner - Small Mobile */
+    .hk-date-banner {
+        padding: var(--space-5) var(--space-3);
+    }
+
+    .date-banner-label {
+        font-size: 0.6rem;
+        margin-bottom: var(--space-2);
+    }
+
+    .date-banner-dates {
+        font-size: 2rem;
+    }
+
+    .date-banner-location {
+        font-size: 0.75rem;
     }
 
     .image-frame,
