@@ -49,7 +49,8 @@ const translations = {
         // HK Trip Section
         'trip-badge': 'Last November',
         'trip-title': 'Hong Kong',
-        'trip-desc': 'Our first Hong Kong pop-up was a tremendous success.<br>Experience the same Korean standard this February.',
+        'trip-desc': 'Our November Hong Kong visit was met with overwhelming response.<br>Due to popular demand, we\'re returning this February.<br>Experience the same Korean standard in Hong Kong.',
+        'trip-desc-en': 'Our November Hong Kong visit was met with overwhelming response.<br>Due to popular demand, we\'re returning this February.<br>Experience the same Korean standard in Hong Kong.',
 
         // Portfolio Section
         'portfolio-label': 'Portfolio',
@@ -230,7 +231,8 @@ const translations = {
         // HK Trip Section
         'trip-badge': '去年十一月',
         'trip-title': '香港',
-        'trip-desc': '我哋第一次嘅香港快閃活動非常成功。<br>今年2月都可以體驗到同樣嘅韓國標準。',
+        'trip-desc': '去年11月嘅香港快閃獲得好大迴響，<br>應客人要求，我哋2月會再嚟。<br>喺香港都可以體驗到同樣嘅韓國標準。',
+        'trip-desc-en': '去年11月嘅香港快閃獲得好大迴響，<br>應客人要求，我哋2月會再嚟。<br>喺香港都可以體驗到同樣嘅韓國標準。',
 
         // Portfolio Section
         'portfolio-label': '作品集',
