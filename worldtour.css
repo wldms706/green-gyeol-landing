@@ -1,0 +1,429 @@
+/* ==========================================================================
+   WORLD TOUR PAGE STYLES
+   ========================================================================== */
+
+/* === HERO === */
+.wt-hero {
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: var(--gray-900);
+}
+
+.wt-hero-bg {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, var(--gray-900) 0%, #2a3a2c 50%, var(--gray-900) 100%);
+}
+
+.wt-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.4) 100%);
+}
+
+.wt-hero-content {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    padding: var(--space-10) var(--space-6);
+    padding-top: calc(var(--space-10) + 80px);
+}
+
+.wt-hero-label {
+    display: inline-block;
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--green-lighter);
+    margin-bottom: var(--space-4);
+}
+
+.wt-hero-title {
+    font-family: var(--font-display);
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 400;
+    font-style: italic;
+    color: var(--white);
+    letter-spacing: 3px;
+    margin: 0 0 var(--space-4) 0;
+}
+
+.wt-hero-desc {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 500px;
+    margin: 0 auto var(--space-8) auto;
+    letter-spacing: 0.5px;
+}
+
+.wt-hero-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-6);
+}
+
+.wt-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-1);
+}
+
+.wt-stat-number {
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.wt-stat-label {
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.wt-stat-divider {
+    width: 1px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* === TIMELINE === */
+.wt-timeline-section {
+    padding: var(--space-10) 0;
+    background: var(--ivory);
+}
+
+.wt-timeline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: var(--space-6) 0;
+}
+
+.wt-timeline-line {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 10%;
+    height: 2px;
+    background: var(--gray-200);
+    transform: translateY(-50%);
+    z-index: 0;
+}
+
+.wt-timeline-stop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+    position: relative;
+    z-index: 1;
+    flex: 1;
+    text-decoration: none;
+    transition: var(--transition-base);
+}
+
+.wt-timeline-stop:hover {
+    transform: translateY(-4px);
+}
+
+.wt-timeline-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--gray-300);
+    border: 3px solid var(--ivory);
+    box-shadow: 0 0 0 2px var(--gray-300);
+    transition: var(--transition-base);
+}
+
+.wt-timeline-dot.active {
+    background: var(--green-primary);
+    box-shadow: 0 0 0 2px var(--green-primary), 0 0 12px rgba(107, 142, 111, 0.3);
+}
+
+.wt-timeline-stop:hover .wt-timeline-dot {
+    background: var(--green-primary);
+    box-shadow: 0 0 0 2px var(--green-primary);
+}
+
+.wt-timeline-flag {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.wt-timeline-name {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    color: var(--gray-800);
+    letter-spacing: 0.5px;
+}
+
+.wt-timeline-date {
+    font-size: 0.75rem;
+    color: var(--gray-500);
+    letter-spacing: 1px;
+}
+
+/* === CURRENT BASE BANNER === */
+.wt-current-section {
+    padding: 0 0 var(--space-10) 0;
+    background: var(--ivory);
+}
+
+.wt-current-banner {
+    display: flex;
+    align-items: center;
+    gap: var(--space-5);
+    padding: var(--space-6) var(--space-8);
+    background: linear-gradient(135deg, var(--green-primary), var(--green-dark));
+    border-radius: 16px;
+    color: var(--white);
+}
+
+.wt-current-flag {
+    font-size: 2.5rem;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.wt-current-info {
+    flex: 1;
+}
+
+.wt-current-info h2 {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--white);
+    margin: 0 0 var(--space-1) 0;
+    letter-spacing: 0.5px;
+}
+
+.wt-current-info p {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+}
+
+.wt-current-banner .btn {
+    flex-shrink: 0;
+    background: var(--white);
+    color: var(--green-dark) !important;
+    border-color: var(--white);
+}
+
+.wt-current-banner .btn:hover {
+    background: transparent;
+    color: var(--white) !important;
+    border-color: var(--white);
+}
+
+/* === CITY SECTIONS === */
+.wt-city-section {
+    padding: var(--space-12) 0;
+    background: var(--white);
+    border-top: 1px solid var(--gray-200);
+}
+
+.wt-city-section.alt {
+    background: var(--ivory);
+}
+
+.wt-city-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-5);
+    margin-bottom: var(--space-6);
+}
+
+.wt-city-flag {
+    font-size: 3.5rem;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.wt-city-info {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+}
+
+.wt-city-order {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--green-primary);
+}
+
+.wt-city-name {
+    font-family: var(--font-display);
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    font-weight: 400;
+    color: var(--gray-900);
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.wt-city-date {
+    font-size: 0.85rem;
+    color: var(--gray-500);
+    letter-spacing: 1px;
+}
+
+.wt-city-desc {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--gray-600);
+    max-width: 700px;
+    margin-bottom: var(--space-8);
+}
+
+/* Gallery */
+.wt-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--space-4);
+}
+
+.wt-gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    aspect-ratio: 3/4;
+    background: var(--gray-100);
+    transition: var(--transition-elegant);
+}
+
+.wt-gallery-item:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-xl);
+}
+
+.wt-gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition-smooth);
+}
+
+.wt-gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+.wt-gallery-placeholder {
+    padding: var(--space-10) var(--space-6);
+    background: var(--gray-100);
+    border: 2px dashed var(--gray-300);
+    border-radius: 12px;
+    text-align: center;
+}
+
+.wt-gallery-placeholder p {
+    color: var(--gray-400);
+    font-size: 0.9rem;
+    font-style: italic;
+    margin: 0;
+}
+
+/* === CTA === */
+.wt-cta-section {
+    padding: var(--space-16) 0;
+    background: var(--gray-900);
+    text-align: center;
+}
+
+.wt-cta-content h2 {
+    font-family: var(--font-display);
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-weight: 400;
+    color: var(--white);
+    margin: 0 0 var(--space-3) 0;
+    letter-spacing: 1px;
+}
+
+.wt-cta-content p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 0 var(--space-8) 0;
+}
+
+.wt-cta-content .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+    .wt-hero {
+        min-height: 60vh;
+    }
+
+    .wt-hero-stats {
+        gap: var(--space-4);
+    }
+
+    .wt-stat-number {
+        font-size: 2rem;
+    }
+
+    .wt-timeline {
+        flex-direction: column;
+        gap: var(--space-5);
+    }
+
+    .wt-timeline-line {
+        top: 10%;
+        bottom: 10%;
+        left: 50%;
+        right: auto;
+        width: 2px;
+        height: auto;
+        transform: translateX(-50%);
+    }
+
+    .wt-timeline-stop {
+        flex-direction: row;
+        gap: var(--space-3);
+    }
+
+    .wt-current-banner {
+        flex-direction: column;
+        text-align: center;
+        padding: var(--space-6);
+    }
+
+    .wt-city-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--space-3);
+    }
+
+    .wt-city-flag {
+        font-size: 2.5rem;
+    }
+
+    .wt-gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--space-3);
+    }
+}
+
+@media (max-width: 480px) {
+    .wt-gallery-grid {
+        grid-template-columns: 1fr;
+    }
+}
