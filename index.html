@@ -101,6 +101,11 @@
                 <a href="#process" data-translate="nav-process">Process</a>
                 <a href="#booking" class="nav-cta" data-translate="nav-booking">Book Now</a>
             </div>
+            <button class="nav-hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </nav>
 
@@ -262,9 +267,6 @@
     <!-- World Tour -->
     <section class="worldtour-section" id="worldtour">
         <div class="trip-video-container">
-            <video autoplay muted loop playsinline class="trip-video">
-                <source src="videos/KakaoTalk_Video_2025-12-24-17-27-25.mp4" type="video/mp4">
-            </video>
             <div class="trip-overlay"></div>
         </div>
 
@@ -387,14 +389,13 @@
 
     <!-- Custom Brows Banner -->
     <section class="custom-brows-banner">
-        <div class="custom-brows-bg">
+        <div class="custom-brows-photo">
             <img src="No two faces.jpeg" alt="Custom brows for every face" loading="lazy">
         </div>
-        <div class="custom-brows-overlay"></div>
         <div class="custom-brows-content">
             <p class="custom-brows-sub fade-in-text">No two faces are alike.</p>
             <h2 class="custom-brows-title fade-in-text">Custom Brows<br>for Every Face.</h2>
-            <p class="custom-brows-desc fade-in-text">Every stroke is tailored to your unique facial structure,<br>skin tone, and natural hair pattern.</p>
+            <p class="custom-brows-desc fade-in-text">Every stroke is tailored to your unique facial structure, skin tone, and natural hair pattern.</p>
         </div>
     </section>
 
@@ -876,6 +877,22 @@
         });
     }, { threshold: 0.3 });
     fadeEls.forEach(el => fadeObserver.observe(el));
+
+    // Mobile hamburger menu
+    const hamburger = document.querySelector('.nav-hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    if (hamburger) {
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('open');
+        });
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('open');
+            });
+        });
+    }
 
     // Scroll to top button visibility
     const scrollBtn = document.querySelector('.scroll-top-btn');

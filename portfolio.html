@@ -67,6 +67,11 @@
                 <a href="index.html#process">Process</a>
                 <a href="index.html#booking" class="nav-cta">Book Now</a>
             </div>
+            <button class="nav-hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </nav>
 
@@ -251,5 +256,21 @@
         </div>
     </footer>
 
+    <script>
+    const hamburger = document.querySelector('.nav-hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    if (hamburger) {
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('open');
+        });
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('open');
+            });
+        });
+    }
+    </script>
 </body>
 </html>
