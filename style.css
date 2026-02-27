@@ -555,6 +555,66 @@ h3 {
     }
 }
 
+/* === FIXED BUTTONS (Instagram + Scroll Top) === */
+.fixed-buttons {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.fixed-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.fixed-btn:hover {
+    transform: translateY(-3px);
+}
+
+.instagram-btn {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: var(--white);
+    text-decoration: none;
+}
+
+.scroll-top-btn {
+    background: var(--white);
+    color: var(--gray-700);
+    border: 1px solid var(--gray-200);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.scroll-top-btn.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+@media (max-width: 768px) {
+    .fixed-buttons {
+        bottom: 20px;
+        right: 16px;
+    }
+
+    .fixed-btn {
+        width: 44px;
+        height: 44px;
+    }
+}
+
 /* === HERO SECTION === */
 .hero {
     position: relative;
