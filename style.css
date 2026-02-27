@@ -467,7 +467,6 @@ h3 {
 /* === CUSTOM BROWS BANNER === */
 .custom-brows-banner {
     position: relative;
-    min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -483,7 +482,9 @@ h3 {
 .custom-brows-bg img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center;
+    background: #2a2a2a;
 }
 
 .custom-brows-overlay {
