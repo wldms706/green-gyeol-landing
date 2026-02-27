@@ -4,13 +4,13 @@
 
 /* === CSS VARIABLES - MINIMALIST LUXURY === */
 :root {
-    /* Refined Green Palette */
-    --green-primary: #6B8E6F;
-    --green-dark: #526952;
-    --green-light: #95B097;
-    --green-lighter: #C8D9C9;
-    --green-pale: #F0F5F1;
-    --green-accent: #8FAD91;
+    /* Baby Pink Palette (Pantone 705 C) */
+    --green-primary: #E8AFBB;
+    --green-dark: #C48A96;
+    --green-light: #F0C4CE;
+    --green-lighter: #F5D9E0;
+    --green-pale: #FDF0F3;
+    --green-accent: #EDBFC9;
 
     /* Luxurious Neutrals */
     --cream: #FDFCFB;
@@ -58,7 +58,7 @@
     --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.05);
     --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.08);
     --shadow-xl: 0 16px 40px rgba(0, 0, 0, 0.1);
-    --shadow-green: 0 8px 32px rgba(107, 142, 111, 0.12);
+    --shadow-green: 0 8px 32px rgba(232, 175, 187, 0.12);
     --shadow-soft: 0 2px 20px rgba(0, 0, 0, 0.04);
 
     /* Refined Transitions */
@@ -170,7 +170,7 @@ h3 {
     z-index: 1000;
     background: rgba(253, 252, 251, 0.92);
     backdrop-filter: blur(20px);
-    border-bottom: 1px solid rgba(107, 142, 111, 0.08);
+    border-bottom: 1px solid rgba(232, 175, 187, 0.08);
     transition: var(--transition-elegant);
 }
 
@@ -1170,9 +1170,9 @@ h3 {
     justify-content: center;
     gap: var(--space-4);
     padding: var(--space-5) var(--space-8);
-    background: linear-gradient(135deg, rgba(107, 142, 111, 0.3), rgba(107, 142, 111, 0.15));
+    background: linear-gradient(135deg, rgba(232, 175, 187, 0.3), rgba(232, 175, 187, 0.15));
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(107, 142, 111, 0.4);
+    border: 1px solid rgba(232, 175, 187, 0.4);
     border-radius: 16px;
     max-width: 500px;
     margin: 0 auto;
@@ -1472,7 +1472,7 @@ h3 {
     left: 0;
     right: 0;
     padding: var(--space-4);
-    background: linear-gradient(to top, rgba(107, 142, 111, 0.95), transparent);
+    background: linear-gradient(to top, rgba(232, 175, 187, 0.95), transparent);
     transform: translateY(100%);
     transition: var(--transition-base);
 }
@@ -1540,7 +1540,7 @@ h3 {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(107, 142, 111, 0.03) 0%, transparent 100%);
+    background: linear-gradient(135deg, rgba(232, 175, 187, 0.03) 0%, transparent 100%);
     opacity: 0;
     transition: var(--transition-elegant);
     pointer-events: none;

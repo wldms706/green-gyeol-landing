@@ -210,7 +210,7 @@
 
 .wt-story-dot.active {
     background: var(--green-primary);
-    box-shadow: 0 0 0 2px var(--green-primary), 0 0 15px rgba(107, 142, 111, 0.3);
+    box-shadow: 0 0 0 2px var(--green-primary), 0 0 15px rgba(232, 175, 187, 0.3);
 }
 
 /* Content layout: text left, photo right (default) */
