@@ -2535,6 +2535,19 @@ h3 {
     .nav-links a {
         font-size: 1.1rem;
         letter-spacing: 2px;
+        color: var(--gray-800);
+        text-decoration: none;
+    }
+
+    .nav-links a::after {
+        display: none;
+    }
+
+    .nav-links a.nav-cta {
+        background: var(--green-primary);
+        color: var(--white);
+        padding: 10px 28px;
+        border-radius: 30px;
     }
 
     /* Language switcher stays visible on mobile */
