@@ -173,7 +173,7 @@ const translations = {
         'faq5-q': 'I have an old brow tattoo. Can I still get this done?',
         'faq5-a': 'It depends on the depth and color of the residual tattoo. You must send unedited photos of your brows before booking. If the residual tattoo is too dark, we may recommend laser removal first. However, faded residual tattoos can often be naturally covered with Hani\'s technique.',
         'faq6-q': 'How does retouch work while Hani is in London?',
-        'faq6-a': 'Greengyeol\'s Hair Stroke technique is designed for high retention with just one session, and many clients are satisfied without a retouch. Since Hani is based in London until 2028, you can easily book a retouch session anytime.',
+        'faq6-a': 'Greenit\'s Hair Stroke technique is designed for high retention with just one session, and many clients are satisfied without a retouch. Since Hani is based in London until 2028, you can easily book a retouch session anytime.',
         'faq7-q': 'Why is a deposit required?',
         'faq7-a': 'Hani operates a private studio with limited slots (3-4 clients per day) to ensure the highest quality. The deposit prevents no-shows and ensures that those who truly want the service have the opportunity.',
         'faq8-q': 'When can I wash my face or exercise after the procedure?',
@@ -206,7 +206,7 @@ const translations = {
         'footer-tagline': 'Natural · Safe · Precise',
         'footer-quick-links': 'Quick Links',
         'footer-connect': 'Connect',
-        'footer-copyright': '\u00a9 2025 Greengyeol. All rights reserved.',
+        'footer-copyright': '\u00a9 2025 Greenit. All rights reserved.',
         'footer-location': 'Based in London, UK · 2026 - 2028'
     }
 };

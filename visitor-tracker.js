@@ -1,4 +1,4 @@
-// Visitor Tracking Script for Greengyeol Landing Page
+// Visitor Tracking Script for Greenit Landing Page
 (function() {
   'use strict';
 
