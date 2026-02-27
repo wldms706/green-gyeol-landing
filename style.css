@@ -1755,6 +1755,34 @@ h3 {
     background: var(--ivory);
 }
 
+/* Process Video */
+.process-video-wrap {
+    max-width: 360px;
+    margin: var(--space-8) auto var(--space-4);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--shadow-paper);
+    background: var(--white);
+    padding: 6px 6px 20px;
+    transform: rotate(-1deg);
+}
+
+.process-video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+    max-height: 540px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .process-video-wrap {
+        max-width: 280px;
+        transform: rotate(0deg);
+    }
+}
+
 .process-timeline {
     position: relative;
     margin-top: var(--space-12);
