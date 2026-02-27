@@ -702,6 +702,95 @@ h3 {
     letter-spacing: 1px;
 }
 
+/* === FEATURED PHILOSOPHY (compact) === */
+.featured-philosophy {
+    padding: var(--space-16) 0;
+    background: var(--white);
+}
+
+.philosophy-compact {
+    display: flex;
+    align-items: center;
+    gap: var(--space-10);
+}
+
+.philosophy-compact-image {
+    flex: 0 0 260px;
+    width: 260px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+}
+
+.philosophy-compact-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.philosophy-compact-content {
+    flex: 1;
+    position: relative;
+    text-align: left;
+}
+
+.philosophy-compact-content .quote-mark {
+    position: static;
+    transform: none;
+    font-size: 5rem;
+    line-height: 0.6;
+    margin-bottom: var(--space-3);
+    display: block;
+}
+
+.philosophy-compact-text {
+    font-family: var(--font-display);
+    font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+    font-style: italic;
+    font-weight: 400;
+    color: var(--gray-700);
+    line-height: 1.7;
+    margin: 0 0 var(--space-6) 0;
+}
+
+.philosophy-compact-text strong {
+    color: var(--gray-900);
+}
+
+.philosophy-compact-content .quote-author {
+    align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+    .featured-philosophy {
+        padding: var(--space-10) 0;
+    }
+
+    .philosophy-compact {
+        flex-direction: column;
+        gap: var(--space-6);
+        text-align: center;
+    }
+
+    .philosophy-compact-image {
+        flex: none;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .philosophy-compact-content {
+        text-align: center;
+    }
+
+    .philosophy-compact-content .quote-mark {
+        font-size: 4rem;
+    }
+
+    .philosophy-compact-content .quote-author {
+        align-items: center;
+    }
+}
+
 /* === HK TRIP SECTION === */
 .hk-trip-section {
     position: relative;
