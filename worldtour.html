@@ -20,7 +20,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css?v=7">
-    <link rel="stylesheet" href="worldtour.css?v=1">
+    <link rel="stylesheet" href="worldtour.css?v=2">
 </head>
 <body>
 
@@ -31,200 +31,143 @@
             <div class="nav-links">
                 <a href="index.html#about">About</a>
                 <a href="worldtour.html" class="active">World Tour</a>
-                <a href="index.html#portfolio">Portfolio</a>
+                <a href="portfolio.html">Portfolio</a>
                 <a href="index.html#process">Process</a>
                 <a href="index.html#booking" class="nav-cta">Book Now</a>
             </div>
         </div>
     </nav>
 
-    <!-- Hero -->
-    <section class="wt-hero">
-        <div class="wt-hero-bg"></div>
-        <div class="wt-hero-overlay"></div>
-        <div class="wt-hero-content">
-            <span class="wt-hero-label">GLOBAL BROW ARTIST</span>
-            <h1 class="wt-hero-title">World Tour</h1>
-            <p class="wt-hero-desc">Bringing Korean brow artistry across the globe</p>
-            <div class="wt-hero-stats">
-                <div class="wt-stat">
-                    <span class="wt-stat-number">4</span>
-                    <span class="wt-stat-label">Countries</span>
-                </div>
-                <div class="wt-stat-divider"></div>
-                <div class="wt-stat">
-                    <span class="wt-stat-number">3</span>
-                    <span class="wt-stat-label">Continents</span>
-                </div>
-                <div class="wt-stat-divider"></div>
-                <div class="wt-stat">
-                    <span class="wt-stat-number">8+</span>
-                    <span class="wt-stat-label">Years</span>
-                </div>
-            </div>
+    <!-- Story Header -->
+    <section class="wt-story-header">
+        <span class="wt-story-label">W O R L D &nbsp; T O U R</span>
+        <div class="wt-story-icon">&#10047;</div>
+        <h1 class="wt-story-title">Hani's Global Journey</h1>
+        <p class="wt-story-subtitle">Bringing Korean brow artistry across the globe</p>
+        <div class="wt-story-stats">
+            <span>4 Countries</span>
+            <span class="wt-story-stats-dot">&middot;</span>
+            <span>3 Continents</span>
+            <span class="wt-story-stats-dot">&middot;</span>
+            <span>8+ Years</span>
         </div>
     </section>
 
-    <!-- Timeline Overview -->
-    <section class="wt-timeline-section">
-        <div class="container-medium">
-            <div class="wt-timeline">
-                <div class="wt-timeline-line"></div>
+    <!-- Story Timeline -->
+    <section class="wt-story-timeline">
+        <div class="wt-story-line"></div>
 
-                <a href="#london" class="wt-timeline-stop">
-                    <span class="wt-timeline-dot active"></span>
-                    <span class="wt-timeline-flag">🇬🇧</span>
-                    <span class="wt-timeline-name">London</span>
-                    <span class="wt-timeline-date">2025</span>
-                </a>
-
-                <a href="#vancouver" class="wt-timeline-stop">
-                    <span class="wt-timeline-dot"></span>
-                    <span class="wt-timeline-flag">🇨🇦</span>
-                    <span class="wt-timeline-name">Vancouver</span>
-                    <span class="wt-timeline-date">2025</span>
-                </a>
-
-                <a href="#hongkong" class="wt-timeline-stop">
-                    <span class="wt-timeline-dot"></span>
-                    <span class="wt-timeline-flag">🇭🇰</span>
-                    <span class="wt-timeline-name">Hong Kong</span>
-                    <span class="wt-timeline-date">2025</span>
-                </a>
-
-                <a href="#jakarta" class="wt-timeline-stop">
-                    <span class="wt-timeline-dot"></span>
-                    <span class="wt-timeline-flag">🇮🇩</span>
-                    <span class="wt-timeline-name">Jakarta</span>
-                    <span class="wt-timeline-date">2026</span>
-                </a>
+        <!-- Entry 1: London (right photo) -->
+        <div class="wt-story-entry" id="london">
+            <div class="wt-story-content">
+                <div class="wt-story-text">
+                    <span class="wt-story-date">2025</span>
+                    <h2 class="wt-story-city">London, UK <span class="wt-story-flag">&#127468;&#127463;</span></h2>
+                    <span class="wt-story-order">1st Destination</span>
+                    <p class="wt-story-desc">The first stop on Hani's global journey. London marked the beginning of bringing authentic Korean brow artistry to the world. Now on her 3rd visit, Hani is based in London on a working holiday.</p>
+                </div>
+                <div class="wt-story-photo">
+                    <img src="global/london first time.JPG" alt="London 1st Visit" loading="lazy">
+                </div>
             </div>
+            <div class="wt-story-dot"></div>
         </div>
-    </section>
 
-    <!-- Current Base -->
-    <section class="wt-current-section">
-        <div class="container-medium">
-            <div class="wt-current-banner">
-                <span class="wt-current-flag">🇬🇧</span>
-                <div class="wt-current-info">
-                    <h2>Now Based in London</h2>
-                    <p>3rd Visit · Working Holiday · Currently Accepting Bookings</p>
+        <!-- Extra London photos -->
+        <div class="wt-story-entry reverse">
+            <div class="wt-story-content">
+                <div class="wt-story-photo">
+                    <img src="global/london second.jpg" alt="London 2nd Visit" loading="lazy">
                 </div>
-                <a href="index.html#booking" class="btn btn-primary">Book Now <span class="btn-arrow">→</span></a>
+                <div class="wt-story-text">
+                    <span class="wt-story-date">2025</span>
+                    <h2 class="wt-story-city">London, 2nd Visit</h2>
+                    <p class="wt-story-desc">Returning to London for the second time, Hani continued to bring her precision Hair Stroke technique to clients in the UK.</p>
+                </div>
             </div>
+            <div class="wt-story-dot"></div>
         </div>
-    </section>
 
-    <!-- City: London -->
-    <section class="wt-city-section" id="london">
-        <div class="container-medium">
-            <div class="wt-city-header">
-                <span class="wt-city-flag">🇬🇧</span>
-                <div class="wt-city-info">
-                    <span class="wt-city-order">1st Destination</span>
-                    <h2 class="wt-city-name">London, UK</h2>
-                    <span class="wt-city-date">2025</span>
+        <!-- Entry 2: Vancouver (left photo) -->
+        <div class="wt-story-entry" id="vancouver">
+            <div class="wt-story-content">
+                <div class="wt-story-text">
+                    <span class="wt-story-date">2025</span>
+                    <h2 class="wt-story-city">Vancouver, Canada <span class="wt-story-flag">&#127464;&#127462;</span></h2>
+                    <span class="wt-story-order">2nd Destination</span>
+                    <p class="wt-story-desc">Hani brought her precision Hair Stroke technique to Vancouver. The pop-up session was met with great enthusiasm from clients seeking natural, Korean-standard brow artistry.</p>
+                </div>
+                <div class="wt-story-photo">
+                    <img src="global/canada booking open poster.jpg" alt="Vancouver Pop-Up" loading="lazy">
                 </div>
             </div>
-            <p class="wt-city-desc">
-                The first stop on Hani's global journey. London marked the beginning of bringing authentic Korean brow artistry to the world. Now on her 3rd visit, Hani is based in London on a working holiday, offering her signature Hair Stroke technique to clients across the UK.
-            </p>
-            <div class="wt-city-gallery">
-                <div class="wt-gallery-grid">
-                    <div class="wt-gallery-item">
-                        <img src="global/london first time.JPG" alt="London 1st Visit" loading="lazy">
-                    </div>
-                    <div class="wt-gallery-item">
-                        <img src="global/london second.jpg" alt="London 2nd Visit" loading="lazy">
-                    </div>
-                    <div class="wt-gallery-item">
-                        <img src="global/london review2.JPG" alt="London Client Review" loading="lazy">
-                    </div>
-                </div>
-            </div>
+            <div class="wt-story-dot"></div>
         </div>
-    </section>
 
-    <!-- City: Vancouver -->
-    <section class="wt-city-section alt" id="vancouver">
-        <div class="container-medium">
-            <div class="wt-city-header">
-                <span class="wt-city-flag">🇨🇦</span>
-                <div class="wt-city-info">
-                    <span class="wt-city-order">2nd Destination</span>
-                    <h2 class="wt-city-name">Vancouver, Canada</h2>
-                    <span class="wt-city-date">2025</span>
+        <!-- Entry 3: Hong Kong (right photo) -->
+        <div class="wt-story-entry reverse" id="hongkong">
+            <div class="wt-story-content">
+                <div class="wt-story-photo">
+                    <img src="global/hk.jpg" alt="Hong Kong Pop-Up" loading="lazy">
+                </div>
+                <div class="wt-story-text">
+                    <span class="wt-story-date">2025</span>
+                    <h2 class="wt-story-city">Hong Kong <span class="wt-story-flag">&#127469;&#127472;</span></h2>
+                    <span class="wt-story-order">3rd Destination</span>
+                    <p class="wt-story-desc">The Hong Kong pop-up received an overwhelming response. Clients experienced the same Korean-standard technique in the heart of Asia.</p>
                 </div>
             </div>
-            <p class="wt-city-desc">
-                Hani brought her precision Hair Stroke technique to Vancouver, Canada. The pop-up session was met with great enthusiasm from clients seeking natural, Korean-standard brow artistry.
-            </p>
-            <div class="wt-city-gallery">
-                <div class="wt-gallery-grid">
-                    <div class="wt-gallery-item">
-                        <img src="global/canada booking open poster.jpg" alt="Vancouver Pop-Up" loading="lazy">
-                    </div>
-                </div>
-            </div>
+            <div class="wt-story-dot"></div>
         </div>
-    </section>
 
-    <!-- City: Hong Kong -->
-    <section class="wt-city-section" id="hongkong">
-        <div class="container-medium">
-            <div class="wt-city-header">
-                <span class="wt-city-flag">🇭🇰</span>
-                <div class="wt-city-info">
-                    <span class="wt-city-order">3rd Destination</span>
-                    <h2 class="wt-city-name">Hong Kong</h2>
-                    <span class="wt-city-date">2025</span>
+        <!-- HK Client photos -->
+        <div class="wt-story-entry">
+            <div class="wt-story-content">
+                <div class="wt-story-text">
+                    <span class="wt-story-date">2025</span>
+                    <h2 class="wt-story-city">Hong Kong Clients</h2>
+                    <p class="wt-story-desc">Results that speak for themselves. Real transformations from the Hong Kong pop-up session.</p>
+                </div>
+                <div class="wt-story-photo">
+                    <img src="hk/KakaoTalk_Photo_2026-01-08-15-22-38 001.jpeg" alt="Hong Kong Client" loading="lazy">
                 </div>
             </div>
-            <p class="wt-city-desc">
-                The Hong Kong pop-up received an overwhelming response. Clients experienced the same Korean-standard technique in the heart of Asia, with results that speak for themselves.
-            </p>
-            <div class="wt-city-gallery">
-                <div class="wt-gallery-grid">
-                    <div class="wt-gallery-item">
-                        <img src="global/hk.jpg" alt="Hong Kong Pop-Up" loading="lazy">
-                    </div>
-                    <div class="wt-gallery-item">
-                        <img src="hk/KakaoTalk_Photo_2026-01-08-15-22-38 001.jpeg" alt="Hong Kong Client 1" loading="lazy">
-                    </div>
-                    <div class="wt-gallery-item">
-                        <img src="hk/KakaoTalk_Photo_2026-01-08-15-22-38 002.jpeg" alt="Hong Kong Client 2" loading="lazy">
-                    </div>
-                    <div class="wt-gallery-item">
-                        <img src="hk/KakaoTalk_Photo_2026-01-08-15-22-38 003.jpeg" alt="Hong Kong Client 3" loading="lazy">
-                    </div>
-                </div>
-            </div>
+            <div class="wt-story-dot"></div>
         </div>
-    </section>
 
-    <!-- City: Jakarta -->
-    <section class="wt-city-section alt" id="jakarta">
-        <div class="container-medium">
-            <div class="wt-city-header">
-                <span class="wt-city-flag">🇮🇩</span>
-                <div class="wt-city-info">
-                    <span class="wt-city-order">4th Destination</span>
-                    <h2 class="wt-city-name">Jakarta, Indonesia</h2>
-                    <span class="wt-city-date">2026</span>
+        <!-- Entry 4: Jakarta (left photo) -->
+        <div class="wt-story-entry reverse" id="jakarta">
+            <div class="wt-story-content">
+                <div class="wt-story-photo">
+                    <img src="global/jakarta.jpg" alt="Jakarta Pop-Up" loading="lazy">
+                </div>
+                <div class="wt-story-text">
+                    <span class="wt-story-date">2026</span>
+                    <h2 class="wt-story-city">Jakarta, Indonesia <span class="wt-story-flag">&#127470;&#127465;</span></h2>
+                    <span class="wt-story-order">4th Destination</span>
+                    <p class="wt-story-desc">The latest addition to Hani's world tour. Jakarta welcomed Korean brow artistry with open arms, bringing Greengyeol's signature natural technique to Southeast Asia.</p>
                 </div>
             </div>
-            <p class="wt-city-desc">
-                The latest addition to Hani's world tour. Jakarta welcomed Korean brow artistry with open arms, bringing Greengyeol's signature natural technique to Southeast Asia.
-            </p>
-            <div class="wt-city-gallery">
-                <div class="wt-gallery-grid">
-                    <div class="wt-gallery-item">
-                        <img src="global/jakarta.jpg" alt="Jakarta Pop-Up" loading="lazy">
-                    </div>
-                </div>
-            </div>
+            <div class="wt-story-dot"></div>
         </div>
+
+        <!-- Current: London 3rd -->
+        <div class="wt-story-entry" id="current">
+            <div class="wt-story-content">
+                <div class="wt-story-text">
+                    <span class="wt-story-date">Now</span>
+                    <h2 class="wt-story-city">London, 3rd Visit <span class="wt-story-flag">&#127468;&#127463;</span></h2>
+                    <span class="wt-story-order current-badge">Currently Based</span>
+                    <p class="wt-story-desc">Now on a working holiday in London, Hani is currently accepting bookings. Experience authentic Korean brow artistry right here in the UK.</p>
+                    <a href="index.html#booking" class="wt-story-btn">Book Now &rarr;</a>
+                </div>
+                <div class="wt-story-photo">
+                    <img src="global/london review2.JPG" alt="London Current" loading="lazy">
+                </div>
+            </div>
+            <div class="wt-story-dot active"></div>
+        </div>
+
     </section>
 
     <!-- CTA -->
@@ -234,7 +177,7 @@
                 <h2>Experience Korean Brow Artistry in London</h2>
                 <p>Currently accepting bookings. Limited availability.</p>
                 <a href="index.html#booking" class="btn btn-primary large">
-                    Book Your Consultation <span class="btn-arrow">→</span>
+                    Book Your Consultation <span class="btn-arrow">&rarr;</span>
                 </a>
             </div>
         </div>
@@ -247,7 +190,7 @@
                 <div class="footer-brand">
                     <h3>Greengyeol</h3>
                     <p>Korean Hair Stroke Brow Artist</p>
-                    <p class="footer-tagline">Natural · Safe · Precise</p>
+                    <p class="footer-tagline">Natural &middot; Safe &middot; Precise</p>
                 </div>
 
                 <div class="footer-links">
@@ -256,7 +199,7 @@
                         <ul>
                             <li><a href="index.html#about">About</a></li>
                             <li><a href="worldtour.html">World Tour</a></li>
-                            <li><a href="index.html#portfolio">Portfolio</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
                             <li><a href="index.html#booking">Book Now</a></li>
                         </ul>
                     </div>

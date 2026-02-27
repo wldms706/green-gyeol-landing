@@ -1,0 +1,263 @@
+/* ==========================================================================
+   PORTFOLIO PAGE STYLES
+   ========================================================================== */
+
+/* === HEADER === */
+.pf-header {
+    padding-top: 120px;
+    padding-bottom: var(--space-10);
+    text-align: center;
+    background: #f5f3f0;
+}
+
+.pf-header-label {
+    display: block;
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 6px;
+    color: var(--gray-500);
+    margin-bottom: var(--space-5);
+}
+
+.pf-header-icon {
+    font-size: 1.8rem;
+    color: var(--green-primary);
+    margin-bottom: var(--space-4);
+    opacity: 0.6;
+}
+
+.pf-header-title {
+    font-family: var(--font-display);
+    font-size: clamp(1.8rem, 5vw, 2.8rem);
+    font-weight: 400;
+    font-style: italic;
+    color: var(--gray-800);
+    margin: 0 0 var(--space-3) 0;
+    letter-spacing: 1px;
+}
+
+.pf-header-subtitle {
+    font-size: 0.95rem;
+    color: var(--gray-500);
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+/* === GALLERY === */
+.pf-gallery {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--space-12) var(--space-6);
+    background: #f5f3f0;
+}
+
+/* === ITEM === */
+.pf-item {
+    margin-bottom: var(--space-6);
+}
+
+/* Before & After comparison */
+.pf-comparison {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-3);
+    margin-bottom: var(--space-5);
+}
+
+.pf-side {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--gray-200);
+    aspect-ratio: 1/1;
+}
+
+.pf-side img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.pf-side:hover img {
+    transform: scale(1.03);
+}
+
+.pf-label {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--white);
+    background: rgba(0, 0, 0, 0.4);
+    padding: 4px 12px;
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+}
+
+.pf-label.after {
+    background: rgba(107, 142, 111, 0.7);
+}
+
+/* Info section */
+.pf-info {
+    text-align: center;
+    padding: 0 var(--space-4);
+}
+
+.pf-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--green-primary);
+    margin-bottom: var(--space-2);
+}
+
+.pf-desc {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: var(--gray-500);
+    margin: 0;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Divider */
+.pf-divider {
+    width: 40px;
+    height: 1px;
+    background: var(--gray-300);
+    margin: var(--space-8) auto;
+}
+
+/* === CLIENT RESULTS SECTION === */
+.pf-clients-section {
+    padding: var(--space-12) var(--space-6);
+    background: var(--white);
+}
+
+.pf-clients-header {
+    text-align: center;
+    margin-bottom: var(--space-10);
+}
+
+.pf-clients-title {
+    font-family: var(--font-display);
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    font-weight: 400;
+    font-style: italic;
+    color: var(--gray-800);
+    margin: var(--space-4) 0 var(--space-3) 0;
+    letter-spacing: 1px;
+}
+
+.pf-clients-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--space-4);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.pf-client-item {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--gray-100);
+    aspect-ratio: 3/4;
+}
+
+.pf-client-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.pf-client-item:hover img {
+    transform: scale(1.05);
+}
+
+.pf-client-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: var(--space-4) var(--space-4);
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.pf-client-item:hover .pf-client-overlay {
+    opacity: 1;
+}
+
+.pf-client-overlay span {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--white);
+    letter-spacing: 1px;
+}
+
+/* === CTA === */
+.pf-cta-section {
+    padding: var(--space-16) 0;
+    background: var(--gray-900);
+    text-align: center;
+}
+
+.pf-cta-content h2 {
+    font-family: var(--font-display);
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-weight: 400;
+    color: var(--white);
+    margin: 0 0 var(--space-3) 0;
+    letter-spacing: 1px;
+}
+
+.pf-cta-content p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 0 var(--space-8) 0;
+}
+
+.pf-cta-content .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+    .pf-header {
+        padding-top: 100px;
+        padding-bottom: var(--space-8);
+    }
+
+    .pf-gallery {
+        padding: var(--space-8) var(--space-5);
+    }
+
+    .pf-clients-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--space-3);
+    }
+}
+
+@media (max-width: 480px) {
+    .pf-comparison {
+        gap: var(--space-2);
+    }
+
+    .pf-clients-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
