@@ -9,7 +9,7 @@ const translations = {
         'nav-booking': 'Book Now',
 
         // Hero Section
-        'hero-label': 'UK EXCLUSIVE · FEB 6-8, 2025',
+        'hero-label': 'BASED IN LONDON · 2025 - 2027',
         'hero-title-line1': 'Korean',
         'hero-title-line2': 'PMU Artist',
         'hero-tagline': 'Natural · Safe · Precise',
@@ -129,17 +129,17 @@ const translations = {
         'clients-not2': 'Those who want dramatic change in one session',
 
         // Schedule Section
-        'schedule-label': 'Limited Availability',
-        'schedule-title': 'UK Pop-Up',
-        'schedule-month': 'Feb 6-8',
-        'schedule-year': '2025',
-        'schedule-detail1-title': 'February 6-8, 2025',
-        'schedule-detail1-desc': '3 days only · Limited slots available',
+        'schedule-label': 'Now Accepting Bookings',
+        'schedule-title': 'Based in London',
+        'schedule-month': '2025 - 2027',
+        'schedule-year': 'Working Holiday in the UK',
+        'schedule-detail1-title': 'Available Year-Round',
+        'schedule-detail1-desc': 'Based in London for 2 years · Ongoing bookings',
         'schedule-detail2-title': 'Limited Slots',
         'schedule-detail2-desc': 'Maximum 3-4 clients per day',
         'schedule-detail3-title': 'Private Location',
         'schedule-detail3-desc': 'Address shared after booking confirmation',
-        'schedule-alert': 'This is the only scheduled UK session. Next visit date is TBD.',
+        'schedule-alert': 'Hani is based in London on a 2-year working holiday. Book anytime via WhatsApp.',
 
         // Pricing Section
         'pricing-label': 'Investment',
@@ -172,10 +172,10 @@ const translations = {
         'faq4-a': 'We only use premium natural pigments certified by Korea\'s KFDA and European safety standards. The color stays true over time without turning red or blue, maintaining its original clarity.',
         'faq5-q': 'I have an old brow tattoo. Can I still get this done?',
         'faq5-a': 'It depends on the depth and color of the residual tattoo. You must send unedited photos of your brows before booking. If the residual tattoo is too dark, we may recommend laser removal first. However, faded residual tattoos can often be naturally covered with Hani\'s technique.',
-        'faq6-q': 'How does retouch work for the UK pop-up?',
-        'faq6-a': 'Greengyeol\'s Hair Stroke technique is designed for high retention with just one session, and many clients are satisfied without a retouch. If you do want a retouch, you can book during our next UK visit (TBD) or visit our Korea flagship studio.',
+        'faq6-q': 'How does retouch work while Hani is in London?',
+        'faq6-a': 'Greengyeol\'s Hair Stroke technique is designed for high retention with just one session, and many clients are satisfied without a retouch. Since Hani is based in London until 2027, you can easily book a retouch session anytime.',
         'faq7-q': 'Why is a deposit required?',
-        'faq7-a': 'The UK pop-up is a private session with limited slots (3-4 clients per day) during a short period. The deposit prevents no-shows and ensures that those who truly want the service have the opportunity.',
+        'faq7-a': 'Hani operates a private studio with limited slots (3-4 clients per day) to ensure the highest quality. The deposit prevents no-shows and ensures that those who truly want the service have the opportunity.',
         'faq8-q': 'When can I wash my face or exercise after the procedure?',
         'faq8-a': 'Avoid water on the treated area on the day of the procedure. From the next day, light water contact is fine. For stable pigment retention, avoid vigorous exercise, sauna, and swimming for about one week.',
         'faq-cta-text': 'More questions? Get in touch directly',
@@ -207,7 +207,7 @@ const translations = {
         'footer-quick-links': 'Quick Links',
         'footer-connect': 'Connect',
         'footer-copyright': '\u00a9 2025 Greengyeol. All rights reserved.',
-        'footer-location': 'UK Exclusive Pop-Up · Feb 6-8, 2025'
+        'footer-location': 'Based in London, UK · 2025 - 2027'
     }
 };
 
