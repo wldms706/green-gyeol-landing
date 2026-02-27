@@ -7,7 +7,7 @@
     padding-top: 120px;
     padding-bottom: var(--space-10);
     text-align: center;
-    background: #f5f3f0;
+    background: var(--cream);
 }
 
 .wt-story-label {
@@ -28,13 +28,13 @@
 }
 
 .wt-story-title {
-    font-family: var(--font-display);
-    font-size: clamp(1.8rem, 5vw, 2.8rem);
-    font-weight: 400;
-    font-style: italic;
+    font-family: var(--font-handwriting);
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 600;
+    font-style: normal;
     color: var(--gray-800);
     margin: 0 0 var(--space-3) 0;
-    letter-spacing: 1px;
+    letter-spacing: 0.01em;
 }
 
 .wt-story-subtitle {
@@ -62,7 +62,7 @@
 /* === PHILOSOPHY === */
 .wt-philosophy {
     padding: var(--space-12) var(--space-6);
-    background: var(--white);
+    background: var(--ivory);
 }
 
 .wt-philosophy-inner {
@@ -76,9 +76,12 @@
 .wt-philosophy-image {
     flex: 0 0 320px;
     width: 320px;
-    border-radius: 16px;
+    border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+    box-shadow: var(--shadow-paper);
+    background: var(--white);
+    padding: 8px 8px 28px;
+    transform: rotate(-1deg);
 }
 
 .wt-philosophy-image img {
@@ -132,9 +135,9 @@
 }
 
 .wt-philosophy-name {
-    font-family: var(--font-display);
-    font-size: 1.1rem;
-    font-style: italic;
+    font-family: var(--font-handwriting);
+    font-size: 1.3rem;
+    font-style: normal;
     color: var(--gray-800);
 }
 
@@ -167,7 +170,7 @@
 .wt-story-timeline {
     position: relative;
     padding: var(--space-12) 0;
-    background: #f5f3f0;
+    background: var(--cream);
 }
 
 /* Center vertical line */
@@ -176,8 +179,8 @@
     top: 0;
     bottom: 0;
     left: 50%;
-    width: 1px;
-    background: var(--gray-300);
+    width: 0;
+    border-left: 2px dashed var(--green-lighter);
     transform: translateX(-50%);
 }
 
@@ -198,12 +201,12 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
-    background: var(--gray-300);
-    border: 3px solid #f5f3f0;
-    box-shadow: 0 0 0 1px var(--gray-300);
+    background: var(--green-lighter);
+    border: 3px solid var(--cream);
+    box-shadow: 0 0 0 1px var(--green-lighter);
     transform: translate(-50%, -50%);
     z-index: 2;
 }
@@ -246,12 +249,12 @@
 }
 
 .wt-story-city {
-    font-family: var(--font-display);
-    font-size: clamp(1.3rem, 3vw, 1.8rem);
-    font-weight: 400;
+    font-family: var(--font-handwriting);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 600;
     color: var(--gray-800);
     margin: 0 0 var(--space-2) 0;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.01em;
 }
 
 .wt-story-flag {
@@ -309,10 +312,11 @@
     flex: 0 0 280px;
     width: 280px;
     aspect-ratio: 3/4;
-    border-radius: 12px;
+    border-radius: 8px;
     overflow: hidden;
-    background: var(--gray-200);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    background: var(--white);
+    box-shadow: var(--shadow-paper);
+    padding: 6px 6px 24px;
 }
 
 .wt-story-photo img {
@@ -329,22 +333,22 @@
 /* === CTA === */
 .wt-cta-section {
     padding: var(--space-16) 0;
-    background: var(--gray-900);
+    background: var(--cream-dark);
     text-align: center;
 }
 
 .wt-cta-content h2 {
-    font-family: var(--font-display);
-    font-size: clamp(1.5rem, 4vw, 2.5rem);
-    font-weight: 400;
-    color: var(--white);
+    font-family: var(--font-handwriting);
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-weight: 600;
+    color: var(--gray-800);
     margin: 0 0 var(--space-3) 0;
-    letter-spacing: 1px;
+    letter-spacing: 0.01em;
 }
 
 .wt-cta-content p {
     font-size: 1rem;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--gray-500);
     margin: 0 0 var(--space-8) 0;
 }
 
