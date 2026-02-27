@@ -192,7 +192,7 @@
             <div class="about-grid">
                 <div class="about-images">
                     <div class="image-main">
-                        <img src="profile.jpeg" alt="Hani - Green Gyeol">
+                        <img src="profile/london profile.jpeg" alt="Hani - Green Gyeol">
                         <div class="image-frame"></div>
                     </div>
                     <div class="image-accent"></div>
@@ -382,6 +382,19 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Custom Brows Banner -->
+    <section class="custom-brows-banner">
+        <div class="custom-brows-bg">
+            <img src="No two faces.jpeg" alt="Custom brows for every face" loading="lazy">
+        </div>
+        <div class="custom-brows-overlay"></div>
+        <div class="custom-brows-content">
+            <p class="custom-brows-sub fade-in-text">No two faces are alike.</p>
+            <h2 class="custom-brows-title fade-in-text">Custom Brows<br>for Every Face.</h2>
+            <p class="custom-brows-desc fade-in-text">Every stroke is tailored to your unique facial structure,<br>skin tone, and natural hair pattern.</p>
         </div>
     </section>
 
@@ -838,5 +851,17 @@
 
     <script src="language.js"></script>
     <script src="visitor-tracker.js"></script>
+    <script>
+    // Fade-in on scroll
+    const fadeEls = document.querySelectorAll('.fade-in-text');
+    const fadeObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, { threshold: 0.3 });
+    fadeEls.forEach(el => fadeObserver.observe(el));
+    </script>
 </body>
 </html>
