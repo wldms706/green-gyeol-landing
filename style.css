@@ -1168,6 +1168,11 @@ h3 {
     letter-spacing: 0.5px;
 }
 
+.worldtour-cta {
+    text-align: center;
+    margin-top: var(--space-6);
+}
+
 @media (max-width: 768px) {
     .worldtour-section {
         min-height: auto;
