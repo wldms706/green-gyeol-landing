@@ -2019,102 +2019,155 @@ h3 {
     background: var(--white);
 }
 
-.pricing-card {
-    background: var(--white);
-    padding: var(--space-10);
-    box-shadow: var(--shadow-xl);
-    border-top: 4px solid var(--green-primary);
+.pricing-intro {
+    max-width: 650px;
+    margin: 0 auto var(--space-8) auto;
+    text-align: center;
 }
 
-.pricing-header {
+.pricing-intro p {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: var(--gray-600);
+    margin: 0 0 var(--space-4) 0;
+}
+
+.pricing-highlight {
+    color: var(--green-primary) !important;
+    font-weight: 600;
+}
+
+.pricing-card {
+    background: #f9f7f4;
+    padding: var(--space-8);
+    border-radius: 12px;
+    margin-bottom: var(--space-6);
+}
+
+.pricing-card-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: var(--space-8);
-    border-bottom: 2px solid var(--green-lighter);
-    margin-bottom: var(--space-8);
 }
 
-.pricing-header h3 {
-    font-size: 2rem;
+.pricing-tag {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gray-400);
+    margin-bottom: var(--space-2);
 }
 
-.price-tag {
+.pricing-card-left h3 {
+    font-family: var(--font-body);
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--gray-800);
+    margin: 0 0 var(--space-2) 0;
+}
+
+.pricing-duration {
+    font-size: 0.85rem;
+    color: var(--gray-500);
+    margin: 0;
+}
+
+.pricing-card-right {
     text-align: right;
 }
 
-.currency {
-    font-size: 1.25rem;
-    color: var(--gray-500);
-    margin-right: var(--space-2);
-}
-
-.amount {
+.pricing-amount {
     font-family: var(--font-display);
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 500;
-    color: var(--green-primary);
+    color: var(--gray-900);
+    line-height: 1;
+    margin-bottom: var(--space-1);
 }
 
-.pricing-includes {
-    margin-bottom: var(--space-8);
+.pricing-note {
+    font-size: 0.8rem;
+    color: var(--gray-500);
+    margin: 0;
 }
 
-.pricing-includes h4 {
-    font-size: 1.125rem;
-    margin-bottom: var(--space-5);
-    color: var(--gray-800);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.pricing-includes ul {
-    list-style: none;
+.pricing-notices {
     display: grid;
     gap: var(--space-4);
+    margin-bottom: var(--space-6);
 }
 
-.pricing-includes li {
-    display: flex;
-    gap: var(--space-4);
-    align-items: flex-start;
+.pricing-notice {
+    padding: var(--space-5) var(--space-6);
+    border-radius: 8px;
+    border-left: 4px solid;
 }
 
-.check-icon {
-    flex-shrink: 0;
-    width: 24px;
-    height: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--green-pale);
-    color: var(--green-primary);
-    border-radius: 50%;
-    font-weight: 700;
-    font-size: 0.85rem;
+.pricing-notice.deposit {
+    background: #fef9e7;
+    border-left-color: #f0c929;
 }
 
-.pricing-includes li span:last-child {
+.pricing-notice.important {
+    background: #fef0f0;
+    border-left-color: #e74c3c;
+}
+
+.pricing-notice h4 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--gray-800);
+    margin: 0 0 var(--space-2) 0;
+}
+
+.pricing-notice p {
+    font-size: 0.9rem;
     line-height: 1.7;
+    color: var(--gray-600);
+    margin: 0;
 }
 
-.pricing-footer {
-    padding-top: var(--space-6);
+.pricing-location {
+    text-align: center;
+    margin-bottom: var(--space-8);
+    padding: var(--space-6) 0;
     border-top: 1px solid var(--gray-200);
 }
 
-.footer-note {
-    display: grid;
-    gap: var(--space-3);
-}
-
-.footer-note p {
-    font-size: 0.95rem;
-    color: var(--gray-600);
-}
-
-.footer-note strong {
+.pricing-location h3 {
+    font-family: var(--font-body);
+    font-size: 1.3rem;
+    font-weight: 600;
     color: var(--gray-800);
+    margin: 0 0 var(--space-2) 0;
+}
+
+.pricing-location p {
+    font-size: 0.9rem;
+    color: var(--gray-500);
+    margin: 0;
+}
+
+.pricing-cta {
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .pricing-card-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--space-4);
+    }
+
+    .pricing-card-right {
+        text-align: left;
+    }
+
+    .pricing-amount {
+        font-size: 2.5rem;
+    }
 }
 
 /* === FAQ SECTION - MINIMALIST LUXURY === */
