@@ -3,6 +3,7 @@ const translations = {
     en: {
         // Navigation
         'nav-about': 'About',
+        'nav-worldtour': 'World Tour',
         'nav-portfolio': 'Portfolio',
         'nav-process': 'Process',
         'nav-booking': 'Book Now',
@@ -46,11 +47,20 @@ const translations = {
         'expertise3-desc': 'Custom design tailored to individual face shape and skin tone',
         'about-badge': 'Years of<br>Excellence',
 
-        // Previous Trip Section
-        'trip-badge': 'Previous Visit',
-        'trip-title': 'London',
-        'trip-desc': 'Our previous visit was met with overwhelming response.<br>Due to popular demand, we\'re returning this February.<br>Experience the same Korean standard in London.',
-        'trip-desc-en': 'Our previous visit was met with overwhelming response.<br>Due to popular demand, we\'re returning this February.<br>Experience the same Korean standard in London.',
+        // World Tour Section
+        'worldtour-label': 'Global Brow Artist',
+        'worldtour-title': 'World Tour',
+        'worldtour-desc': 'Bringing Korean brow artistry to the world',
+        'worldtour-city1': 'London',
+        'worldtour-year1': '2025',
+        'worldtour-city2': 'Vancouver',
+        'worldtour-year2': '2025',
+        'worldtour-city3': 'Hong Kong',
+        'worldtour-year3': '2025',
+        'worldtour-city4': 'Jakarta',
+        'worldtour-year4': '2026',
+        'worldtour-current-title': 'Now Based in London',
+        'worldtour-current-desc': '3rd Visit · Currently Accepting Bookings',
 
         // Previous Portfolio Section
         'hk-portfolio-label': 'Previous Clients',
