@@ -99,14 +99,6 @@
       }
     });
 
-    // Track language changes
-    const langButtons = document.querySelectorAll('.lang-btn');
-    langButtons.forEach(btn => {
-      btn.addEventListener('click', () => {
-        const lang = btn.getAttribute('data-lang');
-        addAction(`Language: ${lang === 'en' ? 'EN' : '中文'}`);
-      });
-    });
 
     // Track booking button clicks
     const bookingButtons = document.querySelectorAll('a[href="#booking"], .btn-primary');
