@@ -60,7 +60,7 @@ const translations = {
         'worldtour-city4': 'Jakarta',
         'worldtour-year4': '2026',
         'worldtour-current-title': 'Now Based in London',
-        'worldtour-current-desc': '3rd Visit · Currently Accepting Bookings',
+        'worldtour-current-desc': '4th Visit · Currently Accepting Bookings',
 
         // Previous Portfolio Section
         'hk-portfolio-label': 'Previous Clients',
